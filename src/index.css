@@ -16,7 +16,7 @@
     --popover: 240 10% 5.9%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 48 96% 53%;
+    --primary: 280 70% 65%;
     --primary-foreground: 240 10% 3.9%;
 
     --secondary: 240 10% 8.9%;
@@ -25,7 +25,7 @@
     --muted: 240 10% 8.9%;
     --muted-foreground: 240 5% 64.9%;
 
-    --accent: 48 96% 53%;
+    --accent: 280 70% 65%;
     --accent-foreground: 240 10% 3.9%;
 
     --destructive: 0 84.2% 60.2%;
@@ -33,27 +33,27 @@
 
     --border: 240 10% 11.9%;
     --input: 240 10% 11.9%;
-    --ring: 48 96% 53%;
+    --ring: 280 70% 65%;
 
     --radius: 0.75rem;
 
     /* Portfolio specific colors */
-    --portfolio-gold: 48 96% 53%;
-    --portfolio-gold-muted: 48 76% 73%;
+    --portfolio-purple: 280 70% 65%;
+    --portfolio-purple-muted: 280 50% 75%;
     --portfolio-dark: 240 10% 3.9%;
     --portfolio-dark-light: 240 10% 8.9%;
     --portfolio-text: 0 0% 98%;
     --portfolio-text-muted: 240 5% 64.9%;
 
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(48 96% 53%) 0%, hsl(45 93% 47%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(280 70% 65%) 0%, hsl(275 65% 60%) 100%);
     --gradient-hero: linear-gradient(135deg, hsl(240 10% 3.9%) 0%, hsl(240 15% 8.9%) 50%, hsl(240 10% 3.9%) 100%);
     --gradient-card: linear-gradient(135deg, hsl(240 10% 5.9%) 0%, hsl(240 12% 7.9%) 100%);
 
     /* Shadows */
-    --shadow-glow: 0 0 50px hsl(48 96% 53% / 0.15);
+    --shadow-glow: 0 0 50px hsl(280 70% 65% / 0.15);
     --shadow-card: 0 10px 30px -10px hsl(0 0% 0% / 0.5);
-    --shadow-elegant: 0 20px 40px -20px hsl(48 96% 53% / 0.3);
+    --shadow-elegant: 0 20px 40px -20px hsl(280 70% 65% / 0.3);
 
     /* Animations */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
@@ -61,12 +61,12 @@
 
     --sidebar-background: 240 10% 5.9%;
     --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 48 96% 53%;
+    --sidebar-primary: 280 70% 65%;
     --sidebar-primary-foreground: 240 10% 3.9%;
     --sidebar-accent: 240 10% 8.9%;
     --sidebar-accent-foreground: 0 0% 98%;
     --sidebar-border: 240 10% 11.9%;
-    --sidebar-ring: 48 96% 53%;
+    --sidebar-ring: 280 70% 65%;
   }
 
   .dark {
@@ -77,27 +77,27 @@
     --card-foreground: 0 0% 98%;
     --popover: 240 10% 5.9%;
     --popover-foreground: 0 0% 98%;
-    --primary: 48 96% 53%;
+    --primary: 280 70% 65%;
     --primary-foreground: 240 10% 3.9%;
     --secondary: 240 10% 8.9%;
     --secondary-foreground: 0 0% 98%;
     --muted: 240 10% 8.9%;
     --muted-foreground: 240 5% 64.9%;
-    --accent: 48 96% 53%;
+    --accent: 280 70% 65%;
     --accent-foreground: 240 10% 3.9%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
     --border: 240 10% 11.9%;
     --input: 240 10% 11.9%;
-    --ring: 48 96% 53%;
+    --ring: 280 70% 65%;
     --sidebar-background: 240 10% 5.9%;
     --sidebar-foreground: 0 0% 98%;
-    --sidebar-primary: 48 96% 53%;
+    --sidebar-primary: 280 70% 65%;
     --sidebar-primary-foreground: 240 10% 3.9%;
     --sidebar-accent: 240 10% 8.9%;
     --sidebar-accent-foreground: 0 0% 98%;
     --sidebar-border: 240 10% 11.9%;
-    --sidebar-ring: 48 96% 53%;
+    --sidebar-ring: 280 70% 65%;
   }
 }
 
@@ -121,12 +121,12 @@
   }
 
   ::-webkit-scrollbar-thumb {
-    background: hsl(var(--portfolio-gold));
+    background: hsl(var(--portfolio-purple));
     border-radius: 4px;
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background: hsl(var(--portfolio-gold-muted));
+    background: hsl(var(--portfolio-purple-muted));
   }
 }
 
