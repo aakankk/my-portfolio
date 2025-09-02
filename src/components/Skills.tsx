@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Progress } from "@/components/ui/progress";
 import { 
   Code, 
   Globe, 
@@ -17,45 +16,22 @@ const Skills = () => {
     {
       title: "Programming Languages",
       icon: Code,
-      skills: [
-        { name: "C, C++", level: 90 },
-        { name: "Python", level: 95 },
-        { name: "R", level: 80 },
-        { name: "JavaScript", level: 85 }
-      ]
+      skills: ["C", "C++", "Python", "R", "JavaScript"]
     },
     {
       title: "Web Technologies", 
       icon: Globe,
-      skills: [
-        { name: "HTML, CSS", level: 90 },
-        { name: "React.js", level: 85 },
-        { name: "Node.js", level: 80 },
-        { name: "MySQL", level: 75 }
-      ]
+      skills: ["HTML", "CSS", "React.js", "Node.js", "MySQL"]
     },
     {
       title: "Software & Tools",
       icon: Laptop,
-      skills: [
-        { name: "MS Office", level: 95 },
-        { name: "Canva", level: 80 },
-        { name: "G-Suite", level: 85 },
-        { name: "Git & GitHub", level: 90 }
-      ]
+      skills: ["MS Office", "Canva", "G-Suite", "Git", "GitHub"]
     },
     {
       title: "Machine Learning Libraries",
       icon: Brain,
-      skills: [
-        { name: "NumPy", level: 90 },
-        { name: "Pandas", level: 95 },
-        { name: "Matplotlib", level: 85 },
-        { name: "PyTorch", level: 80 },
-        { name: "Scikit-learn", level: 85 },
-        { name: "Jupyter", level: 90 },
-        { name: "Spacy", level: 75 }
-      ]
+      skills: ["NumPy", "Pandas", "Matplotlib", "PyTorch", "Scikit-learn", "Jupyter", "Spacy"]
     }
   ];
 
@@ -95,18 +71,15 @@ const Skills = () => {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <div className="space-y-6">
+                  <div className="flex flex-wrap gap-3">
                     {category.skills.map((skill, idx) => (
-                      <div key={idx} className="space-y-2">
-                        <div className="flex justify-between items-center">
-                          <span className="font-medium">{skill.name}</span>
-                          <span className="text-sm text-primary font-semibold">{skill.level}%</span>
-                        </div>
-                        <Progress 
-                          value={skill.level} 
-                          className="h-2"
-                        />
-                      </div>
+                      <Badge 
+                        key={idx} 
+                        variant="outline" 
+                        className="border-primary/30 text-primary hover:bg-primary hover:text-primary-foreground portfolio-transition cursor-default"
+                      >
+                        {skill}
+                      </Badge>
                     ))}
                   </div>
                 </CardContent>
