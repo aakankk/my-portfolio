@@ -110,11 +110,7 @@ const About = () => {
                   <div className="space-y-4">
                     <div>
                       <p className="text-sm text-muted-foreground">Email</p>
-                      <p className="text-lg font-semibold text-primary">aakanksha21@iitk.ac.in</p>
-                    </div>
-                    <div>
-                      <p className="text-sm text-muted-foreground">Phone</p>
-                      <p className="text-lg font-semibold">+91-7856853024</p>
+                      <p className="text-lg font-semibold text-primary">aakankshak21@iitk.ac.in</p>
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Location</p>

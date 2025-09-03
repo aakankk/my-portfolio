@@ -59,7 +59,7 @@ const Projects = () => {
       professor: "Prof. Purushottam Kar, IIT KANPUR"
     },
     {
-      title: "Computer Vision Library using G",
+      title: "Computer Vision Library using C",
       description: "Developed a library showcasing expertise in image basics, pixel manipulation & edge detection. Applied algorithms for image enhancement, color shifting & edge detection using feature extraction.",
       type: "Self Project",
       date: "May '23 - July '23",
