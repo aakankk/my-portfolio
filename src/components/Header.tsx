@@ -68,7 +68,7 @@ const Header = () => {
           {/* Social Links & Contact */}
           <div className="hidden md:flex items-center space-x-4">
             <a 
-              href="https://github.com/aakanksha21" 
+              href="https://github.com/aakankk" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-primary/20 portfolio-transition hover:scale-110"
@@ -76,7 +76,7 @@ const Header = () => {
               <Github className="h-5 w-5" />
             </a>
             <a 
-              href="https://linkedin.com/in/aakanksha-kumari" 
+              href="https://www.linkedin.com/in/aakanksha-kumari-34b814253/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="p-2 rounded-full hover:bg-primary/20 portfolio-transition hover:scale-110"
@@ -88,7 +88,7 @@ const Header = () => {
               className="portfolio-glow portfolio-transition hover:scale-105"
               asChild
             >
-              <a href="mailto:aakanksha21@iitk.ac.in">
+              <a href="mailto:aakankshak21@iitk.ac.in">
                 <Mail className="h-4 w-4 mr-2" />
                 Contact
               </a>
@@ -125,7 +125,7 @@ const Header = () => {
                 
                 <div className="flex items-center space-x-4 pt-4 border-t border-border/30">
                   <a 
-                    href="https://github.com/aakanksha21" 
+                    href="https://github.com/aakankk" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-2 rounded-full hover:bg-primary/20 portfolio-transition"
@@ -133,7 +133,7 @@ const Header = () => {
                     <Github className="h-5 w-5" />
                   </a>
                   <a 
-                    href="https://linkedin.com/in/aakanksha-kumari" 
+                    href="https://www.linkedin.com/in/aakanksha-kumari-34b814253/" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="p-2 rounded-full hover:bg-primary/20 portfolio-transition"
@@ -145,7 +145,7 @@ const Header = () => {
                     className="flex-1 portfolio-glow"
                     asChild
                   >
-                    <a href="mailto:aakanksha21@iitk.ac.in">
+                    <a href="mailto:aakankshak21@iitk.ac.in">
                       <Mail className="h-4 w-4 mr-2" />
                       Contact Me
                     </a>

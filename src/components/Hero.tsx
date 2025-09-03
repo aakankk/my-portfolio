@@ -30,7 +30,7 @@ const Hero = () => {
           <div className="text-left space-y-8">
             {/* Name & Title */}
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold portfolio-transition hover:scale-105">
-              <span className="text-gradient">Aakanksha</span>
+              <span className="text-foreground">Aakanksha</span>
               <br />
               <span className="text-foreground">Kumari</span>
             </h1>
@@ -75,7 +75,7 @@ const Hero = () => {
             {/* Social Links */}
             <div className="flex gap-6">
               <a 
-                href="https://github.com/aakanksha21" 
+                href="https://github.com/aakankk" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground portfolio-transition hover:scale-110 portfolio-glow"
@@ -83,13 +83,13 @@ const Hero = () => {
                 <Github className="h-6 w-6" />
               </a>
               <a 
-                href="mailto:aakanksha21@iitk.ac.in" 
+                href="mailto:aakankshak21@iitk.ac.in" 
                 className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground portfolio-transition hover:scale-110 portfolio-glow"
               >
                 <Mail className="h-6 w-6" />
               </a>
               <a 
-                href="https://linkedin.com/in/aakanksha-kumari" 
+                href="https://www.linkedin.com/in/aakanksha-kumari-34b814253/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground portfolio-transition hover:scale-110 portfolio-glow"
@@ -114,9 +114,9 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/1acec672-1a51-46ec-890e-f9129927f47d.png"
                 alt="Aakanksha Kumari" 
-                className="w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-2xl portfolio-glow portfolio-transition hover:scale-105 border-4 border-primary/30"
+                className="w-80 h-80 lg:w-96 lg:h-96 object-cover rounded-full portfolio-glow portfolio-transition hover:scale-105 border-4 border-black"
               />
-              <div className="absolute inset-0 rounded-2xl bg-gradient-to-r from-primary/20 to-accent/20"></div>
+              <div className="absolute inset-0 rounded-full bg-gradient-to-r "></div>
             </div>
           </div>
         </div>

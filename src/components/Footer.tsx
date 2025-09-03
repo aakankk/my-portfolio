@@ -23,7 +23,7 @@ const Footer = () => {
             {/* Social Links */}
             <div className="flex justify-center gap-4 mb-8">
               <a 
-                href="https://github.com/aakanksha21" 
+                href="https://github.com/aakankk" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground portfolio-transition hover:scale-110 portfolio-glow"
@@ -31,7 +31,7 @@ const Footer = () => {
                 <Github className="h-6 w-6" />
               </a>
               <a 
-                href="https://linkedin.com/in/aakanksha-kumari" 
+                href="https://www.linkedin.com/in/aakanksha-kumari-34b814253/" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground portfolio-transition hover:scale-110 portfolio-glow"
@@ -39,7 +39,7 @@ const Footer = () => {
                 <Linkedin className="h-6 w-6" />
               </a>
               <a 
-                href="mailto:aakanksha21@iitk.ac.in"
+                href="mailto:aakankshak21@iitk.ac.in"
                 className="p-3 rounded-full bg-card hover:bg-primary hover:text-primary-foreground portfolio-transition hover:scale-110 portfolio-glow"
               >
                 <Mail className="h-6 w-6" />
@@ -52,7 +52,7 @@ const Footer = () => {
               className="portfolio-glow portfolio-transition hover:scale-105 mb-8"
               asChild
             >
-              <a href="mailto:aakanksha21@iitk.ac.in">
+              <a href="mailto:aakankshak21@iitk.ac.in">
                 <Mail className="h-5 w-5 mr-2" />
                 Get In Touch
               </a>

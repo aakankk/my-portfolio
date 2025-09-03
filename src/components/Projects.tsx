@@ -17,8 +17,7 @@ const Projects = () => {
         "Enhanced user experience with scalable architecture",
         "Secure API implementation"
       ],
-      github: "https://github.com/aakanksha/imagify",
-      demo: "https://imagify-demo.com"
+      github: "https://github.com/aakankk/imagify",
     },
     {
       title: "Netflix-Clone - Full Stack Streaming Platform",
@@ -31,7 +30,7 @@ const Projects = () => {
         "Dynamic content with reusable components",
         "Responsive UI for enhanced user experience"
       ],
-      github: "https://github.com/aakanksha/netflix-clone"
+      github: "https://github.com/aakankk/netflix-clone"
     },
     {
       title: "Rice Variety Prediction using PyTorch",
@@ -44,7 +43,7 @@ const Projects = () => {
         "Custom neural network architecture",
         "Visualization of results and model accuracy"
       ],
-      github: "https://github.com/aakanksha/rice-prediction"
+      github: "https://github.com/aakankk/Project1"
     },
     {
       title: "XORRO PDF Analysis",
@@ -70,7 +69,7 @@ const Projects = () => {
         "Edge detection using feature extraction algorithms",
         "Color space transformations & enhancement"
       ],
-      github: "https://github.com/aakanksha/cv-library"
+      github: "https://github.com/aakankk/Computer-vision-using-C-"
     },
     {
       title: "Finance Equity Market Analysis",
@@ -188,19 +187,6 @@ const Projects = () => {
                         <a href={project.github} target="_blank" rel="noopener noreferrer">
                           <Github className="h-4 w-4 mr-2" />
                           Code
-                        </a>
-                      </Button>
-                    )}
-                    
-                    {project.demo && (
-                      <Button
-                        size="sm"
-                        className="portfolio-glow portfolio-transition hover:scale-105"
-                        asChild
-                      >
-                        <a href={project.demo} target="_blank" rel="noopener noreferrer">
-                          <ExternalLink className="h-4 w-4 mr-2" />
-                          Demo
                         </a>
                       </Button>
                     )}
